@@ -1,0 +1,119 @@
+@media (max-width: 768px) {
+    .clear {
+        clear: both;
+    }
+
+    .banner h1, .banner h2 {
+        font-size: 3em;
+    }
+
+    #slider3-pager a {
+        padding: 0;
+        width: 63%;
+    }
+
+    #slider3-pager img {
+        float: left;
+        width: 100%;
+    }
+
+    .banner {
+        min-height: 366px;
+    }
+
+    .rslides_tabs li:first-child {
+        margin-right: -2em;
+    }
+
+    .rslides_tabs li {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .banner h1, .banner h2 {
+        font-size: 2.5em;
+    }
+
+    .rslides_tabs {
+        top: 65%;
+        left: 3%;
+    }
+
+    .banner {
+        min-height: 314px;
+    }
+}
+
+@media (max-width: 480px) {
+    #cart thead {
+        display: none;
+    }
+
+    #cart td[data-th$="Quantity"] {
+        width: 65px;
+    }
+
+    .navbar-text {
+        padding: 0 15px;
+    }
+
+    .banner h1, .banner h2 {
+        font-size: 1.8em;
+        margin-bottom: -10px;
+    }
+
+    #slider3-pager a {
+        width: 44%;
+    }
+
+    .rslides_tabs li:first-child {
+        margin-right: -5em;
+    }
+
+    .rslides_tabs li {
+        margin-right: -2em;
+    }
+
+    .banner {
+        min-height: 230px;
+        padding: 3em 0;
+    }
+
+    .rslides {
+        min-height: 380px;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner h1, .banner h2 {
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+
+    #slider3-pager a {
+        width: 30%;
+    }
+
+    .rslides_tabs li:first-child {
+        margin-right: -7em;
+    }
+
+    .rslides_tabs {
+        top: 70%;
+        left: 5%;
+    }
+
+    .rslides_tabs li {
+        margin-right: -4em;
+    }
+
+    .banner {
+        min-height: 183px;
+        padding: 2em 0;
+    }
+
+    .rslides {
+        min-height: 181px;
+    }
+}

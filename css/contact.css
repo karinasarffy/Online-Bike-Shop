@@ -1,0 +1,17 @@
+.contact-label{
+    color: darkred;
+    font-weight: 500;
+    font-size: 24px;
+}
+.contact-container{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.contact-maps iframe{
+    width:100%;
+    height: 320px;
+
+}
+.contact-address p {
+    margin-bottom: 0;
+}
